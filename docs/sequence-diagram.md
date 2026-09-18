@@ -124,6 +124,11 @@ After the analysis and report generation are complete, the application displays:
 
 Analysis complete.
 
+```
+
+![Execution workflow diagram](diagrams/02_workflow.png)
+
+
 ## 4. Interaction Summary
 
 The complete interaction can be summarized as:

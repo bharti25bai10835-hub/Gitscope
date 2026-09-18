@@ -61,6 +61,11 @@ The final analysis is displayed through the command-line interface and can also 
                                   | gitscope-report.txt  |
                                   +----------------------+
 
+```
+
+![System architecture diagram](diagrams/01_system_architecture.png)
+
+
 ## 3. Major Components
 Main
 

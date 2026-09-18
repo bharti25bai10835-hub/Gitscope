@@ -101,6 +101,11 @@ GitScope processes a Git repository through a sequence of parsing, analysis, sco
                                            | END |
                                            +-----+
 
+```
+
+![Analysis workflow diagram](diagrams/02_workflow.png)
+
+
 ## 3. Detailed Workflow
 Step 1 - Input
 

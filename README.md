@@ -59,6 +59,7 @@ GitScope/
 ├── README.md
 ├── statement.md
 └── .gitignore
+```
 
 ## Requirements
 Java JDK 17 or later
@@ -68,17 +69,26 @@ A Git repository to analyze
 ## Compilation
 
 From the GitScope project root:
+
+```bash
 rm -rf out
 mkdir out
-
 javac -d out src/model/*.java src/parser/*.java src/analyzer/*.java src/scoring/*.java src/report/*.java src/Main.java tests/TestRunner.java
+```
 
 ## Running GitScope
 
 Provide the path of a Git repository as the command-line argument:
+
+```bash
 java -cp out Main <repository-path>
+```
+
 Example:
+
+```bash
 java -cp out Main ~/Documents/Roadwise-Smart-Transportation-System
+```
 The program analyzes the repository and displays:
 
 Number of commits analyzed
@@ -95,9 +105,16 @@ gitscope-report.txt
 ## Running Tests
 
 Compile the project using the compilation command above and run:
+
+```bash
 java -cp out TestRunner <repository-path>
+```
+
 Example:
+
+```bash
 java -cp out TestRunner ~/Documents/Roadwise-Smart-Transportation-System
+```
 The test runner verifies major components and reports the number of passed and failed tests.
 
 ## Example Output

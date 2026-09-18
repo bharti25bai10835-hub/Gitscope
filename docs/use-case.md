@@ -52,6 +52,11 @@ The Repository Analyst is the user who provides a Git repository and uses GitSco
                        | in CLI        |
                        +---------------+
 
+```
+
+![UML use case diagram](diagrams/05_use_case.png)
+
+
 ## 3. Use Case Descriptions
 UC1 - Provide Repository Path
 

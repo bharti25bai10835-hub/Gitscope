@@ -101,6 +101,11 @@ FileStats   Coupling    Ownership       Impact
                                v
                      gitscope-report.txt
 
+```
+
+![UML class diagram](diagrams/04_class_diagram.png)
+
+
 ## 3. Class Responsibilities
 Main
 

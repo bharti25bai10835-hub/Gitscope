@@ -136,14 +136,15 @@ GitScope/
 ├── README.md
 ├── statement.md
 └── .gitignore
+```
 
-Limitations
+## Limitations
 
 GitScope relies on the historical information available in a Git repository. Its risk score is an analytical indicator based on repository history and should not be treated as a definitive measurement of software quality or project risk.
 
 The current version is command-line based and does not provide graphical visualization of repository relationships.
 
-Future Enhancements
+## Future Enhancements
 
 Possible future improvements include:
 
